@@ -13,5 +13,5 @@ ssh-copy-id user@remote-ip-addr
 <pre>
 docker pull nginx:1.17
 </pre>
-
+### Copy files on docker host
 
