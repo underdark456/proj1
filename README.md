@@ -9,6 +9,9 @@ wget -O - https://get.docker.com | bash -
 ssh-keygen
 ssh-copy-id user@remote-ip-addr
 </pre>
-### Build docker image
-`docker pull nginx:1.17'
+### Pull docker image
+<pre>
+docker pull nginx:1.17
+</pre>
+
 
