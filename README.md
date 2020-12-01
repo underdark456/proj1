@@ -1,5 +1,5 @@
 # proj1
-
+## Main
 ### Install docker on both hosts
 <pre>
 wget -O - https://get.docker.com | bash -
@@ -14,4 +14,4 @@ ssh-copy-id user@remote-ip-addr
 docker pull nginx:1.17
 </pre>
 ### Copy files on docker host
-
+## Operation
