@@ -15,3 +15,7 @@ docker pull nginx:1.17
 </pre>
 ### Copy files on docker host
 ## Operation
+1.
+2.
+3.
+4.
