@@ -1,7 +1,9 @@
 # proj1
 
 ### Install docker on both hosts
-`wget -O - https://get.docker.com | bash -`
+<pre>
+wget -O - https://get.docker.com | bash -
+</pre>
 ### Gen keys
 <pre>
 ssh-keygen
