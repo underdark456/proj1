@@ -12,6 +12,7 @@ Add user to group in both hosts
 <pre>
 sudo adduser user docker
 </pre>
+DOCKER_HOST="ssh <rem-ip_addr>"
 ### Gen keys
 <pre>
 ssh-keygen
