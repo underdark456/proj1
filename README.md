@@ -4,6 +4,10 @@
 <pre>
 wget -O - https://get.docker.com | bash -
 </pre>
+Also install make on server
+<pre>
+sudo apt install make
+</pre>
 ### Gen keys
 <pre>
 ssh-keygen
