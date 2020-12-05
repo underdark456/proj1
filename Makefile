@@ -1,5 +1,5 @@
 sync:
-        cd ~user/proj1
+        cd ~user/proj1/site
         wget -r -e robots=off -l 1 -nd -A 'bugs*.html' https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
 build:
         cd ~user/proj1
