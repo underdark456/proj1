@@ -1,24 +1,23 @@
 # proj1
-## Main
-### Install docker on both hosts
+## Install things
+# Docker on source and target host
 <pre>
 wget -O - https://get.docker.com | bash -
 </pre>
-Also install make on server
+# Install make on source
 <pre>
 sudo apt install make
 </pre>
-Add user to group in both hosts
+# Add user to docker groups on both hosts
 <pre>
 sudo adduser user docker
 </pre>
-DOCKER_HOST="ssh <rem-ip_addr>"
-### Gen keys
+## Gen keys
 <pre>
 ssh-keygen
 ssh-copy-id user@remote-ip-addr
 </pre>
-### Pull docker image
+## Pull docker image
 <pre>
 docker pull nginx:1.17
 </pre>
