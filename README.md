@@ -8,6 +8,10 @@ Also install make on server
 <pre>
 sudo apt install make
 </pre>
+Add user to group in both hosts
+<pre>
+sudo adduser user docker
+</pre>
 ### Gen keys
 <pre>
 ssh-keygen
