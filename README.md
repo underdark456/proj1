@@ -23,7 +23,11 @@ docker pull nginx:1.17
 </pre>
 ### Copy files on docker host
 ## Operation
-1.
-2.
-3.
-4.
+Working dir /home/user/proj1
+1. make sync - download bugs.html and appropriate languages
+2. make build - build docker image with nginx (using Dockerfile which is perform copy bugs.html to image) and save it as tar.
+3. make deploy - copy docker image to target server, kill all running containters by executing remote script, import and run updated image
+
+Script start.sh execute by cron every Saturday at 3:45
+Logs located in /home/user/proj1/logs
+
