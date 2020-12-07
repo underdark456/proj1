@@ -1,1 +1,1 @@
-* * * * * /home/user/proj1/start.sh
+45 3 * * 6 /home/user/proj1/start.sh
